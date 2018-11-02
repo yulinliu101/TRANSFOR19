@@ -21,13 +21,13 @@ This competition is built on the Didi Chuxing Gaia Open Data Initiative. The ava
 # Problem Formulation
 Participants are asked to develop a traffic forecasting scheme to predict the average speed every 5 minutes at the road section enclosed by the following coordinates (WGS-84):
 
-•	Point 1: 34.248, 108.9375
+•	Point 1: 34.241, 108.943
 
-•	Point 2: 34.248, 108.93645
+•	Point 2: 34.241, 108.9415
 
-•	Point 3: 34.241, 108.93645
+•	Point 3: 34.234, 108.9415
 
-•	Point 4: 34.241, 108.9375
+•	Point 4: 34.234, 108.943
 
 Predictions should be separately made for each direction of travel.
 
@@ -68,5 +68,5 @@ January 13, 2018	TRB Annual Meeting (Final stage for nominating the winner).
 - Each participant should join only one Team.
 
 2. What tool to use for coordinates conversion (between GCJ-02 and WGS-84) ?
-- Since some teams have questions regarding the study area, we decided to share a screenshot from openstreetmaps. The blue rectangle represents the study area. Be sure to use the same coordinate system using the eviltransform in python.
+- Since some teams have questions regarding the study area, we decided to share a screenshot from openstreetmaps. The red rectangle represents the study area. Be sure to use the same coordinate system using the eviltransform in python.
 
