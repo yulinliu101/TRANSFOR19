@@ -2,7 +2,7 @@
 # @Author: Yulin Liu
 # @Date:   2018-11-01 20:26:55
 # @Last Modified by:   Yulin Liu
-# @Last Modified time: 2018-11-01 20:56:09
+# @Last Modified time: 2018-11-01 21:15:47
 
 import numpy as np
 import pandas as pd
@@ -36,3 +36,6 @@ Example use
 exp_data = ExploreData('../data/6a2b11c93bd64aed9a06b3b9875008db.tar.gz')
 exp_data.visual_traj(exp_data.dataset)
 """
+# exp_data = ExploreData('../data/6a2b11c93bd64aed9a06b3b9875008db.tar.gz', 5000000)
+# exp_data.dataset.to_csv('subsamples', index = False)
+# exp_data.visual_traj(exp_data.dataset)
